@@ -1,5 +1,23 @@
-# Report
-## Ronit Jalihal, 2023101028
+# Project Desciption
+## Directory Structure
+### problems and solutions directories
++ problems directory contains 100 json files, one for each problem in the dataset. It outlines each problem in the dataset in json format.
++ solutions directory is similar to problems directory, with one json file for each problem. It provides solutions to each problem.
+
+### results
+#### json_format:
++ This contains the 3 files for results of zero shot, 1 shot and 3 shot testing done with the json output format without explanation.
+#### text format:
+##### base:
+This contains the 4 files for results of zero, 1 ,3 shot as well as COT prompting.
+#### temp-0.7:
+This contains the results of COT prompting for temperature 0.7
+#### temp-0.85:
+This contains the result data of COT prompts with the default 1 value of top_p. 
+##### top_p-0.85
+This contains the result data of COT prompts with value of top_p = 0.85
+##### top_p-0.95
+This contains the result data of COT prompts with value of top_p = 0.95
 
 ## Brief Code Overview
 ### Dataset Generation:
@@ -18,29 +36,17 @@
 ### Jsonify.py:
 + Used to convert the dataset from text format in `dataset_middle.txt` to unique json files for each problem and solution in the dataset.
 
-## Dataset Selection:
-### Selecting appropriate difficulties
-+ Difficulty was adjusted 
+### dataset_middle.txt
++ Used as a convenient way to store problems to make it easy to access for Gemini API file.
 
-## Prompt Selection:
-### Zero Shot prompts:
-- Prompt used for testing on web interfaces was (with a sample example):   <br>
-    Here is a puzzle: <br>
-    You start with an initial string and you are given a set of transitions. During a single transition,you can only apply the rule on the first instance of the substring in the string. Your goal is to get the empty string.<br>
-    Solve this problem:<br>
-    initial string: 001110000101100<br>
-    transitions:<br>
-    "010110"->"111011"<br>
-    "001110"->""<br>
-    "11101"->"11"<br>
-    "000"->"10111"<br>
+## Commands to run project:
++ jsonify.py:<br> ` python3 jsonify.py `
++ geminiApi.py:<br>
+ `python3 geminiApi.py --api_key [Insert API KEY here]`
+ + dataset_gen.cpp:<br>
+`g++ dataset_gen.cpp `
 
-- Prompt used during Gemini API was (in python string format):<br>
- "Here is a puzzle: \n"<br>
-"You start with an initial string and you are given a set of transitions. During a single transition, you can only apply the rule on the first instance of the substring in the string. Your goal is to get the empty string.\n"<br>
-"Solve this problem:\n"<br>
-f"initial string: {initial}\n"<br>
-"transitions:\n"<br>
-f"{transitions_str}"<br>
-"//transitions ends here\n"<br>
-"report the answer in given json format. the solution should be an array of the indices of the rules you used in the solution (0 indexed from the top)"<br>
+
+## Main libraries:
++ jsonify.py:  os, json
++ geminiApi.py: google-genai, pydantic , json ,argparse, time
