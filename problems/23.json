@@ -1,0 +1,26 @@
+{
+    "problem_id": "23",
+    "initial_string": "OAUILQGJD",
+    "transitions": [
+        {
+            "src": "UIL",
+            "tgt": "H"
+        },
+        {
+            "src": "AHQ",
+            "tgt": "L"
+        },
+        {
+            "src": "WNJMR",
+            "tgt": "KXZLQJ"
+        },
+        {
+            "src": "S",
+            "tgt": "U"
+        },
+        {
+            "src": "OLGJD",
+            "tgt": ""
+        }
+    ]
+}

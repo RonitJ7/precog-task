@@ -1,0 +1,26 @@
+{
+    "problem_id": "72",
+    "initial_string": "5aQZAz2qvpCz2qvpCz2Oyvp",
+    "transitions": [
+        {
+            "src": "Oy",
+            "tgt": "r"
+        },
+        {
+            "src": "5aQZA",
+            "tgt": "C"
+        },
+        {
+            "src": "MABq",
+            "tgt": "WAfa88"
+        },
+        {
+            "src": "q",
+            "tgt": "r"
+        },
+        {
+            "src": "Cz2rvp",
+            "tgt": ""
+        }
+    ]
+}

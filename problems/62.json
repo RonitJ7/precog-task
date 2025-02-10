@@ -1,0 +1,30 @@
+{
+    "problem_id": "62",
+    "initial_string": "GXXELZQRGXXELZCNUPR",
+    "transitions": [
+        {
+            "src": "QR",
+            "tgt": "I"
+        },
+        {
+            "src": "C",
+            "tgt": "K"
+        },
+        {
+            "src": "E",
+            "tgt": "JIU"
+        },
+        {
+            "src": "KNUPR",
+            "tgt": "I"
+        },
+        {
+            "src": "WV",
+            "tgt": "BJXPP"
+        },
+        {
+            "src": "GXXELZI",
+            "tgt": ""
+        }
+    ]
+}

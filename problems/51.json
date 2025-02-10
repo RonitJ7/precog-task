@@ -1,0 +1,22 @@
+{
+    "problem_id": "51",
+    "initial_string": "OxN2re76ZhSp4",
+    "transitions": [
+        {
+            "src": "OxN2r",
+            "tgt": "T"
+        },
+        {
+            "src": "Te76",
+            "tgt": "R"
+        },
+        {
+            "src": "F",
+            "tgt": "QAh8ca"
+        },
+        {
+            "src": "RZhSp4",
+            "tgt": ""
+        }
+    ]
+}

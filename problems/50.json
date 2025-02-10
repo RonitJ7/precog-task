@@ -1,0 +1,22 @@
+{
+    "problem_id": "50",
+    "initial_string": "E8VSmLamtc",
+    "transitions": [
+        {
+            "src": "0g7Hq",
+            "tgt": "WbVvpx"
+        },
+        {
+            "src": "8VS",
+            "tgt": "f"
+        },
+        {
+            "src": "Efm",
+            "tgt": "k"
+        },
+        {
+            "src": "kLamtc",
+            "tgt": ""
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "problem_id": "19",
+    "initial_string": "WaCMaCMEPON",
+    "transitions": [
+        {
+            "src": "AQBGY",
+            "tgt": "MTFXHTN"
+        },
+        {
+            "src": "IVI",
+            "tgt": "OKXIaK"
+        },
+        {
+            "src": "FMDAF",
+            "tgt": "YDWPOHI"
+        },
+        {
+            "src": "T",
+            "tgt": "Q"
+        },
+        {
+            "src": "aCMT",
+            "tgt": "T"
+        },
+        {
+            "src": "BQSB",
+            "tgt": "L"
+        },
+        {
+            "src": "EPO",
+            "tgt": "T"
+        },
+        {
+            "src": "WQN",
+            "tgt": ""
+        }
+    ]
+}

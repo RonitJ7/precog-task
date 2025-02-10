@@ -1,0 +1,14 @@
+{
+    "problem_id": "2",
+    "initial_string": "OtOtOtOt",
+    "transitions": [
+        {
+            "src": "1JON",
+            "tgt": "Ot"
+        },
+        {
+            "src": "Ot",
+            "tgt": ""
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "problem_id": "29",
+    "initial_string": "oo",
+    "transitions": [
+        {
+            "src": ".oo",
+            "tgt": "."
+        },
+        {
+            "src": "o",
+            "tgt": ".o.o"
+        },
+        {
+            "src": "o",
+            "tgt": ".oo."
+        },
+        {
+            "src": "o..",
+            "tgt": ""
+        }
+    ]
+}

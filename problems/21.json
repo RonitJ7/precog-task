@@ -1,0 +1,22 @@
+{
+    "problem_id": "21",
+    "initial_string": "WQGGU",
+    "transitions": [
+        {
+            "src": "Sa",
+            "tgt": "HSO"
+        },
+        {
+            "src": "G",
+            "tgt": "A"
+        },
+        {
+            "src": "A",
+            "tgt": "H"
+        },
+        {
+            "src": "WQAHU",
+            "tgt": ""
+        }
+    ]
+}

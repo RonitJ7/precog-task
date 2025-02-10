@@ -1,0 +1,14 @@
+{
+    "problem_id": "11",
+    "initial_string": "ITILITIT",
+    "transitions": [
+        {
+            "src": "T",
+            "tgt": "L"
+        },
+        {
+            "src": "IL",
+            "tgt": ""
+        }
+    ]
+}

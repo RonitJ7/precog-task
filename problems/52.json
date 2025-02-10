@@ -1,0 +1,30 @@
+{
+    "problem_id": "52",
+    "initial_string": "13SQU0C11H5",
+    "transitions": [
+        {
+            "src": "1F",
+            "tgt": "L7KQ"
+        },
+        {
+            "src": "3SQU0C1",
+            "tgt": "7"
+        },
+        {
+            "src": "DG9RY",
+            "tgt": "5CC7BCM"
+        },
+        {
+            "src": "N",
+            "tgt": "M0I"
+        },
+        {
+            "src": "H5",
+            "tgt": "7"
+        },
+        {
+            "src": "17",
+            "tgt": ""
+        }
+    ]
+}

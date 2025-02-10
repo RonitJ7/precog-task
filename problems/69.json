@@ -1,0 +1,30 @@
+{
+    "problem_id": "69",
+    "initial_string": "vkEBX3R8eZ5sJsJsJsJbEB8e",
+    "transitions": [
+        {
+            "src": "KJxU",
+            "tgt": "veO"
+        },
+        {
+            "src": "5sJ",
+            "tgt": "5"
+        },
+        {
+            "src": "8e",
+            "tgt": "X"
+        },
+        {
+            "src": "kptXl",
+            "tgt": "qewnw"
+        },
+        {
+            "src": "3RXZ5b",
+            "tgt": "vk"
+        },
+        {
+            "src": "vkEBX",
+            "tgt": ""
+        }
+    ]
+}

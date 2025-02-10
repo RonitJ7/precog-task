@@ -1,0 +1,26 @@
+{
+    "problem_id": "66",
+    "initial_string": "AQCIVCIUDRXZENXZENOG",
+    "transitions": [
+        {
+            "src": "VCIUDR",
+            "tgt": "M"
+        },
+        {
+            "src": "QCIMOJ",
+            "tgt": "A"
+        },
+        {
+            "src": "G",
+            "tgt": "J"
+        },
+        {
+            "src": "RXZEN",
+            "tgt": "R"
+        },
+        {
+            "src": "A",
+            "tgt": ""
+        }
+    ]
+}

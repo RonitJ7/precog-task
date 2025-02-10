@@ -1,0 +1,22 @@
+{
+    "problem_id": "17",
+    "initial_string": "ALILXBLLN",
+    "transitions": [
+        {
+            "src": "LXBL",
+            "tgt": "E"
+        },
+        {
+            "src": "XYELJOR",
+            "tgt": "ZR"
+        },
+        {
+            "src": "EL",
+            "tgt": "T"
+        },
+        {
+            "src": "ALITN",
+            "tgt": ""
+        }
+    ]
+}

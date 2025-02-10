@@ -1,0 +1,30 @@
+{
+    "problem_id": "57",
+    "initial_string": "U8UGG66Y4QB",
+    "transitions": [
+        {
+            "src": "L4QB",
+            "tgt": "8"
+        },
+        {
+            "src": "6IE0VY",
+            "tgt": "4XD8W"
+        },
+        {
+            "src": "GG66Y",
+            "tgt": "L"
+        },
+        {
+            "src": "6NMC",
+            "tgt": "ZI"
+        },
+        {
+            "src": "VMAFGVU",
+            "tgt": "8S7S"
+        },
+        {
+            "src": "U8",
+            "tgt": ""
+        }
+    ]
+}

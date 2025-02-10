@@ -1,0 +1,26 @@
+{
+    "problem_id": "67",
+    "initial_string": "DRFIVAKPHDRFIVFIKPLCPF",
+    "transitions": [
+        {
+            "src": "LXZLEKP",
+            "tgt": "FUAC"
+        },
+        {
+            "src": "FI",
+            "tgt": "A"
+        },
+        {
+            "src": "VAKPH",
+            "tgt": "G"
+        },
+        {
+            "src": "LCPF",
+            "tgt": "H"
+        },
+        {
+            "src": "DRAG",
+            "tgt": ""
+        }
+    ]
+}

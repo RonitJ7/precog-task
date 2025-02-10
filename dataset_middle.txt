@@ -1,0 +1,2779 @@
+{
+  "problem_id": "1",
+  "initial_string": "1JON",
+  "transitions": [
+    {
+      "src": "1JON",
+      "tgt": "Ot"
+    },
+    {
+      "src": "Ot",
+      "tgt": ""
+    }
+  ],
+  "solution": "[0,1,]"
+}
+
+{
+  "problem_id": "2",
+  "initial_string": "OtOtOtOt",
+  "transitions": [
+    {
+      "src": "1JON",
+      "tgt": "Ot"
+    },
+    {
+      "src": "Ot",
+      "tgt": ""
+    }
+  ],
+  "solution": "[1,1,1,1,]"
+}
+
+{
+  "problem_id": "3",
+  "initial_string": "1JON1JON",
+  "transitions": [
+    {
+      "src": "1JON",
+      "tgt": "Ot"
+    },
+    {
+      "src": "Ot",
+      "tgt": ""
+    }
+  ],
+  "solution": "[0,0,1,1,]"
+}
+
+{
+  "problem_id": "4",
+  "initial_string": "1",
+  "transitions": [
+    {
+      "src": "1",
+      "tgt": "00100"
+    },
+    {
+      "src": "1000001000",
+      "tgt": "000"
+    },
+    {
+      "src": "00100",
+      "tgt": ""
+    }
+  ],
+  "solution": "[0,2,]"
+}
+
+{
+  "problem_id": "5",
+  "initial_string": "001001111",
+  "transitions": [
+    {
+      "src": "1",
+      "tgt": "00100"
+    },
+    {
+      "src": "1000001000",
+      "tgt": "000"
+    },
+    {
+      "src": "00100",
+      "tgt": ""
+    }
+  ],
+  "solution": "[2,0,2,0,2,0,2,0,2,]"
+}
+
+{
+  "problem_id": "6",
+  "initial_string": "1001001",
+  "transitions": [
+    {
+      "src": "1",
+      "tgt": "00100"
+    },
+    {
+      "src": "1000001000",
+      "tgt": "000"
+    },
+    {
+      "src": "00100",
+      "tgt": ""
+    }
+  ],
+  "solution": "[0,2,2,0,2,]"
+}
+
+{
+  "problem_id": "7",
+  "initial_string": "010000010000010110",
+  "transitions": [
+    {
+      "src": "10110",
+      "tgt": "0100000100000"
+    },
+    {
+      "src": "11000",
+      "tgt": "00"
+    },
+    {
+      "src": "0100000100000",
+      "tgt": ""
+    }
+  ],
+  "solution": "[2,0,2,]"
+}
+
+{
+  "problem_id": "8",
+  "initial_string": "10001110011001110",
+  "transitions": [
+    {
+      "src": "0",
+      "tgt": ""
+    },
+    {
+      "src": "1",
+      "tgt": "0"
+    },
+    {
+      "src": "10111",
+      "tgt": "00111"
+    },
+    {
+      "src": "0001110",
+      "tgt": "0"
+    }
+  ],
+  "solution": "[3,1,0,0,1,3,0,0,]"
+}
+
+{
+  "problem_id": "9",
+  "initial_string": "001110000101100",
+  "transitions": [
+    {
+      "src": "010110",
+      "tgt": "111011"
+    },
+    {
+      "src": "001110",
+      "tgt": ""
+    },
+    {
+      "src": "11101",
+      "tgt": "11"
+    },
+    {
+      "src": "000",
+      "tgt": "10111"
+    }
+  ],
+  "solution": "[1,0,2,1,]"
+}
+
+{
+  "problem_id": "10",
+  "initial_string": "IT",
+  "transitions": [
+    {
+      "src": "T",
+      "tgt": "L"
+    },
+    {
+      "src": "IL",
+      "tgt": ""
+    }
+  ],
+"solution": "[0,1,]"
+}
+
+{
+  "problem_id": "11",
+  "initial_string": "ITILITIT",
+  "transitions": [
+    {
+      "src": "T",
+      "tgt": "L"
+    },
+    {
+      "src": "IL",
+      "tgt": ""
+    }
+  ],
+"solution": "[0,1,1,0,1,0,1,]"
+}
+
+{
+  "problem_id": "12",
+  "initial_string": "JYHYNQY",
+  "transitions": [
+    {
+      "src": "LSWDY",
+      "tgt": "HQE"
+    },
+    {
+      "src": "MJLI",
+      "tgt": "CFYGAWS"
+    },
+    {
+      "src": "HYNQ",
+      "tgt": "D"
+    },
+    {
+      "src": "JYDY",
+      "tgt": ""
+    }
+  ],
+"solution": "[2,3,]"
+}
+
+{
+  "problem_id": "13",
+  "initial_string": "nhohpgohp",
+  "transitions": [
+    {
+      "src": "acpw",
+      "tgt": "zoynlo"
+    },
+    {
+      "src": "takrm",
+      "tgt": "i"
+    },
+    {
+      "src": "g",
+      "tgt": "nh"
+    },
+    {
+      "src": "uzag",
+      "tgt": "fsho"
+    },
+    {
+      "src": "nhohp",
+      "tgt": ""
+    }
+  ],
+"solution": "[4,2,4,]"
+}
+
+{
+  "problem_id": "14",
+  "initial_string": "gohp",
+  "transitions": [
+    {
+      "src": "acpw",
+      "tgt": "zoynlo"
+    },
+    {
+      "src": "takrm",
+      "tgt": "i"
+    },
+    {
+      "src": "g",
+      "tgt": "nh"
+    },
+    {
+      "src": "uzag",
+      "tgt": "fsho"
+    },
+    {
+      "src": "nhohp",
+      "tgt": ""
+    }
+  ],
+"solution": "[2,4,]"
+}
+
+{
+  "problem_id": "15",
+  "initial_string": "zpzzczzpz",
+  "transitions": [
+    {
+      "src": "p",
+      "tgt": "c"
+    },
+    {
+      "src": "nyqlm",
+      "tgt": "bzhrnlo"
+    },
+    {
+      "src": "zcz",
+      "tgt": ""
+    }
+  ],
+"solution": "[0,2,2,0,2,]"
+}
+
+{
+  "problem_id": "16",
+  "initial_string": "vmhifdzvmhifdyci",
+  "transitions": [
+    {
+      "src": "dbkeku",
+      "tgt": "izr"
+    },
+    {
+      "src": "cndpknj",
+      "tgt": "zwqm"
+    },
+    {
+      "src": "naact",
+      "tgt": "ayj"
+    },
+    {
+      "src": "yci",
+      "tgt": "z"
+    },
+    {
+      "src": "vmhifdz",
+      "tgt": ""
+    }
+  ],
+"solution": "[4,3,4,]"
+}
+
+{
+  "problem_id": "17",
+  "initial_string": "ALILXBLLN",
+  "transitions": [
+    {
+      "src": "LXBL",
+      "tgt": "E"
+    },
+    {
+      "src": "XYELJOR",
+      "tgt": "ZR"
+    },
+    {
+      "src": "EL",
+      "tgt": "T"
+    },
+    {
+      "src": "ALITN",
+      "tgt": ""
+    }
+  ],
+"solution": "[0,2,3,]"
+}
+
+{
+  "problem_id": "18",
+  "initial_string": "LWLWLWLPKISK",
+  "transitions": [
+    {
+      "src": "FFS",
+      "tgt": "J"
+    },
+    {
+      "src": "KISK",
+      "tgt": "Z"
+    },
+    {
+      "src": "PZ",
+      "tgt": "W"
+    },
+    {
+      "src": "DED",
+      "tgt": "KWZRaV"
+    },
+    {
+      "src": "GAaWAB",
+      "tgt": "PN"
+    },
+    {
+      "src": "KNDG",
+      "tgt": "UT"
+    },
+    {
+      "src": "EAAPLAZ",
+      "tgt": "QaUOQ"
+    },
+    {
+      "src": "A",
+      "tgt": "NFH"
+    },
+    {
+      "src": "LW",
+      "tgt": ""
+    }
+  ],
+"solution": "[1,8,8,8,2,8,]"
+}
+
+{
+  "problem_id": "19",
+  "initial_string": "WaCMaCMEPON",
+  "transitions": [
+    {
+      "src": "AQBGY",
+      "tgt": "MTFXHTN"
+    },
+    {
+      "src": "IVI",
+      "tgt": "OKXIaK"
+    },
+    {
+      "src": "FMDAF",
+      "tgt": "YDWPOHI"
+    },
+    {
+      "src": "T",
+      "tgt": "Q"
+    },
+    {
+      "src": "aCMT",
+      "tgt": "T"
+    },
+    {
+      "src": "BQSB",
+      "tgt": "L"
+    },
+    {
+      "src": "EPO",
+      "tgt": "T"
+    },
+    {
+      "src": "WQN",
+      "tgt": ""
+    }
+  ],
+"solution": "[6,4,4,3,7,]"
+}
+
+{
+  "problem_id": "20",
+  "initial_string": "WQGAU",
+  "transitions": [
+    {
+      "src": "Sa",
+      "tgt": "HSO"
+    },
+    {
+      "src": "G",
+      "tgt": "A"
+    },
+    {
+      "src": "A",
+      "tgt": "H"
+    },
+    {
+      "src": "WQAHU",
+      "tgt": ""
+    }
+  ],
+"solution": "[2,1,3,]"
+}
+
+{
+  "problem_id": "21",
+  "initial_string": "WQGGU",
+  "transitions": [
+    {
+      "src": "Sa",
+      "tgt": "HSO"
+    },
+    {
+      "src": "G",
+      "tgt": "A"
+    },
+    {
+      "src": "A",
+      "tgt": "H"
+    },
+    {
+      "src": "WQAHU",
+      "tgt": ""
+    }
+  ],
+"solution": "[1,2,1,3,]"
+}
+
+{
+  "problem_id": "22",
+  "initial_string": "UUSZKAJKDHD",
+  "transitions": [
+    {
+      "src": "TGH",
+      "tgt": "aFFHQA"
+    },
+    {
+      "src": "GPUHCCK",
+      "tgt": "EQY"
+    },
+    {
+      "src": "KKLX",
+      "tgt": "FQXGNEM"
+    },
+    {
+      "src": "ZKAJK",
+      "tgt": "J"
+    },
+    {
+      "src": "DH",
+      "tgt": "R"
+    },
+    {
+      "src": "UUSJRD",
+      "tgt": ""
+    }
+  ],
+"solution": "[3,4,5,]"
+}
+
+{
+  "problem_id": "23",
+  "initial_string": "OAUILQGJD",
+  "transitions": [
+    {
+      "src": "UIL",
+      "tgt": "H"
+    },
+    {
+      "src": "AHQ",
+      "tgt": "L"
+    },
+    {
+      "src": "WNJMR",
+      "tgt": "KXZLQJ"
+    },
+    {
+      "src": "S",
+      "tgt": "U"
+    },
+    {
+      "src": "OLGJD",
+      "tgt": ""
+    }
+  ],
+"solution": "[0,1,4,]"
+}
+
+{
+  "problem_id": "24",
+  "initial_string": "JUHHWDEK",
+  "transitions": [
+    {
+      "src": "J",
+      "tgt": "T"
+    },
+    {
+      "src": "U",
+      "tgt": "S"
+    },
+    {
+      "src": "VLQNYI",
+      "tgt": "IGWMB"
+    },
+    {
+      "src": "TSHHWDEK",
+      "tgt": ""
+    }
+  ],
+"solution": "[1,0,3,]"
+}
+
+{
+  "problem_id": "25",
+  "initial_string": "BWSJRYYWVT",
+  "transitions": [
+    {
+      "src": "IQRYZDJ",
+      "tgt": "FT"
+    },
+    {
+      "src": "WSJQWV",
+      "tgt": "Y"
+    },
+    {
+      "src": "RYY",
+      "tgt": "Q"
+    },
+    {
+      "src": "BYT",
+      "tgt": ""
+    }
+  ],
+"solution": "[2,1,3,]"
+}
+
+{
+  "problem_id": "26",
+  "initial_string": "CZADIIWTDBW",
+  "transitions": [
+    {
+      "src": "ZADIIWT",
+      "tgt": "B"
+    },
+    {
+      "src": "CBD",
+      "tgt": "F"
+    },
+    {
+      "src": "EPURRQW",
+      "tgt": "ILS"
+    },
+    {
+      "src": "FBW",
+      "tgt": ""
+    }
+  ],
+"solution": "[0,1,3,]"
+}
+
+{
+  "problem_id": "27",
+  "initial_string": ".ooo..",
+  "transitions": [
+    {
+      "src": ".oo",
+      "tgt": "o.oo"
+    },
+    {
+      "src": "o.",
+      "tgt": "."
+    },
+    {
+      "src": ".ooo..",
+      "tgt": ""
+    }
+  ],
+"solution": "[0,1,2,]"
+}
+
+{
+  "problem_id": "28",
+  "initial_string": ".o.oo...",
+  "transitions": [
+    {
+      "src": "oo",
+      "tgt": "oo.o"
+    },
+    {
+      "src": ".o.o",
+      "tgt": "oo"
+    },
+    {
+      "src": "o.oo.o.",
+      "tgt": "o..o"
+    },
+    {
+      "src": "oo.oo...",
+      "tgt": ""
+    }
+  ],
+"solution": "[1,0,3,]"
+}
+
+{
+  "problem_id": "29",
+  "initial_string": "oo",
+  "transitions": [
+    {
+      "src": ".oo",
+      "tgt": "."
+    },
+    {
+      "src": "o",
+      "tgt": ".o.o"
+    },
+    {
+      "src": "o",
+      "tgt": ".oo."
+    },
+    {
+      "src": "o..",
+      "tgt": ""
+    }
+  ],
+"solution": "[2,0,3,]"
+}
+
+{
+  "problem_id": "30",
+  "initial_string": ".......oo..",
+  "transitions": [
+    {
+      "src": "o.",
+      "tgt": ".oo"
+    },
+    {
+      "src": "..",
+      "tgt": "o."
+    },
+    {
+      "src": "...oo..",
+      "tgt": "o."
+    },
+    {
+      "src": "..o.o.",
+      "tgt": ""
+    }
+  ],
+"solution": "[2,1,3,]"
+}
+
+{
+  "problem_id": "31",
+  "initial_string": "..oo.o.oooooo",
+  "transitions": [
+    {
+      "src": "oooo",
+      "tgt": ".o."
+    },
+    {
+      "src": "..oo.o.",
+      "tgt": ".."
+    },
+    {
+      "src": "...",
+      "tgt": ".oo.o"
+    },
+    {
+      "src": "..oo.o.",
+      "tgt": ""
+    }
+  ],
+"solution": "[1,0,3,]"
+}
+
+{
+  "problem_id": "32",
+  "initial_string": "..oo.o....",
+  "transitions": [
+    {
+      "src": "oooo",
+      "tgt": ".o."
+    },
+    {
+      "src": "..oo.o.",
+      "tgt": ".."
+    },
+    {
+      "src": "...",
+      "tgt": ".oo.o"
+    },
+    {
+      "src": "..oo.o.",
+      "tgt": ""
+    }
+  ],
+"solution": "[1,2,3,]"
+}
+
+{
+  "problem_id": "33",
+  "initial_string": "....",
+  "transitions": [
+    {
+      "src": "o",
+      "tgt": "."
+    },
+    {
+      "src": "..",
+      "tgt": "o"
+    },
+    {
+      "src": "...",
+      "tgt": ""
+    }
+  ],
+"solution": "[1,0,2,]"
+}
+
+{
+  "problem_id": "34",
+  "initial_string": ".o.oo.o.o",
+  "transitions": [
+    {
+      "src": "o.oo.o.",
+      "tgt": ".o"
+    },
+    {
+      "src": ".o",
+      "tgt": ".o"
+    },
+    {
+      "src": "o.o.",
+      "tgt": "o.."
+    },
+    {
+      "src": "..oo",
+      "tgt": ""
+    }
+  ],
+"solution": "[1,0,3,]"
+}
+
+{
+  "problem_id": "35",
+  "initial_string": "38641240030710",
+  "transitions": [
+    {
+      "src": "4124003",
+      "tgt": "0"
+    },
+    {
+      "src": "860071",
+      "tgt": "8"
+    },
+    {
+      "src": "8",
+      "tgt": "92302"
+    },
+    {
+      "src": "380",
+      "tgt": ""
+    }
+  ],
+"solution": "[0,1,3,]"
+}
+
+{
+  "problem_id": "36",
+  "initial_string": "2944382146",
+  "transitions": [
+    {
+      "src": "146",
+      "tgt": "5"
+    },
+    {
+      "src": "4438",
+      "tgt": "8"
+    },
+    {
+      "src": "6",
+      "tgt": "11235"
+    },
+    {
+      "src": "29825",
+      "tgt": ""
+    }
+  ],
+"solution": "[1,0,3,]"
+}
+
+{
+  "problem_id": "37",
+  "initial_string": "2944382146",
+  "transitions": [
+    {
+      "src": "146",
+      "tgt": "5"
+    },
+    {
+      "src": "4438",
+      "tgt": "8"
+    },
+    {
+      "src": "6",
+      "tgt": "11235"
+    },
+    {
+      "src": "29825",
+      "tgt": ""
+    }
+  ],
+"solution": "[0,1,3,]"
+}
+
+{
+  "problem_id": "38",
+  "initial_string": "07197032",
+  "transitions": [
+    {
+      "src": "7",
+      "tgt": "5"
+    },
+    {
+      "src": "19",
+      "tgt": "31"
+    },
+    {
+      "src": "07315032",
+      "tgt": ""
+    }
+  ],
+"solution": "[1,0,2,]"
+}
+
+{
+  "problem_id": "39",
+  "initial_string": "07197032",
+  "transitions": [
+    {
+      "src": "7",
+      "tgt": "5"
+    },
+    {
+      "src": "19",
+      "tgt": "31"
+    },
+    {
+      "src": "07315032",
+      "tgt": ""
+    }
+  ],
+"solution": "[0,1,2,]"
+}
+
+{
+  "problem_id": "40",
+  "initial_string": "539797116",
+  "transitions": [
+    {
+      "src": "0674",
+      "tgt": "3314559"
+    },
+    {
+      "src": "711",
+      "tgt": "0"
+    },
+    {
+      "src": "7906",
+      "tgt": "7"
+    },
+    {
+      "src": "5397",
+      "tgt": ""
+    }
+  ],
+"solution": "[1,2,3,]"
+}
+
+{
+  "problem_id": "41",
+  "initial_string": "3564275022611",
+  "transitions": [
+    {
+      "src": "35642",
+      "tgt": "7"
+    },
+    {
+      "src": "3",
+      "tgt": "15"
+    },
+    {
+      "src": "611",
+      "tgt": "67"
+    },
+    {
+      "src": "77502267",
+      "tgt": ""
+    }
+  ],
+"solution": "[0,2,3,]"
+}
+
+{
+  "problem_id": "42",
+  "initial_string": "2736",
+  "transitions": [
+    {
+      "src": "2040",
+      "tgt": "19"
+    },
+    {
+      "src": "27",
+      "tgt": "8"
+    },
+    {
+      "src": "36",
+      "tgt": "5"
+    },
+    {
+      "src": "85",
+      "tgt": ""
+    }
+  ],
+"solution": "[2,1,3,]"
+}
+
+{
+  "problem_id": "43",
+  "initial_string": "2736",
+  "transitions": [
+    {
+      "src": "2040",
+      "tgt": "19"
+    },
+    {
+      "src": "27",
+      "tgt": "8"
+    },
+    {
+      "src": "36",
+      "tgt": "5"
+    },
+    {
+      "src": "85",
+      "tgt": ""
+    }
+  ],
+"solution": "[1,2,3,]"
+}
+
+{
+  "problem_id": "44",
+  "initial_string": "38600714124003",
+  "transitions": [
+    {
+      "src": "4124003",
+      "tgt": "0"
+    },
+    {
+      "src": "860071",
+      "tgt": "8"
+    },
+    {
+      "src": "8",
+      "tgt": "92302"
+    },
+    {
+      "src": "380",
+      "tgt": ""
+    }
+  ],
+"solution": "[1,0,3,]"
+}
+
+{
+  "problem_id": "45",
+  "initial_string": "38641240030710",
+  "transitions": [
+    {
+      "src": "4124003",
+      "tgt": "0"
+    },
+    {
+      "src": "860071",
+      "tgt": "8"
+    },
+    {
+      "src": "8",
+      "tgt": "92302"
+    },
+    {
+      "src": "380",
+      "tgt": ""
+    }
+  ],
+"solution": "[0,1,3,]"
+}
+
+{
+  "problem_id": "46",
+  "initial_string": "17130084933",
+  "transitions": [
+    {
+      "src": "54",
+      "tgt": "4"
+    },
+    {
+      "src": "9",
+      "tgt": "354203"
+    },
+    {
+      "src": "1713008",
+      "tgt": "25"
+    },
+    {
+      "src": "24933",
+      "tgt": ""
+    }
+  ],
+"solution": "[2,0,3,]"
+}
+
+{
+  "problem_id": "47",
+  "initial_string": "EFtTswjcQ1ir4y2",
+  "transitions": [
+    {
+      "src": "wjcQ1ir",
+      "tgt": "R"
+    },
+    {
+      "src": "TsR4y2",
+      "tgt": "J"
+    },
+    {
+      "src": "0DgWdm",
+      "tgt": "TTw"
+    },
+    {
+      "src": "EFtJ",
+      "tgt": ""
+    }
+  ],
+"solution": "[0,1,3,]"
+}
+
+{
+  "problem_id": "48",
+  "initial_string": "kuGzJ9p6DFK5",
+  "transitions": [
+    {
+      "src": "yl",
+      "tgt": "Ch1w"
+    },
+    {
+      "src": "J9p6DFK",
+      "tgt": "K"
+    },
+    {
+      "src": "kuG",
+      "tgt": "3"
+    },
+    {
+      "src": "3zK5",
+      "tgt": ""
+    }
+  ],
+"solution": "[1,2,3,]"
+}
+
+{
+  "problem_id": "49",
+  "initial_string": "SgTXYJ1ke",
+  "transitions": [
+    {
+      "src": "0zMyQ",
+      "tgt": "txqEh"
+    },
+    {
+      "src": "J1",
+      "tgt": "i"
+    },
+    {
+      "src": "Yi",
+      "tgt": "o"
+    },
+    {
+      "src": "SgTXoke",
+      "tgt": ""
+    }
+  ],
+"solution": "[1,2,3,]"
+}
+
+{
+  "problem_id": "50",
+  "initial_string": "E8VSmLamtc",
+  "transitions": [
+    {
+      "src": "0g7Hq",
+      "tgt": "WbVvpx"
+    },
+    {
+      "src": "8VS",
+      "tgt": "f"
+    },
+    {
+      "src": "Efm",
+      "tgt": "k"
+    },
+    {
+      "src": "kLamtc",
+      "tgt": ""
+    }
+  ],
+"solution": "[1,2,3,]"
+}
+
+{
+  "problem_id": "51",
+  "initial_string": "OxN2re76ZhSp4",
+  "transitions": [
+    {
+      "src": "OxN2r",
+      "tgt": "T"
+    },
+    {
+      "src": "Te76",
+      "tgt": "R"
+    },
+    {
+      "src": "F",
+      "tgt": "QAh8ca"
+    },
+    {
+      "src": "RZhSp4",
+      "tgt": ""
+    }
+  ],
+"solution": "[0,1,3,]"
+}
+
+{
+  "problem_id": "52",
+  "initial_string": "13SQU0C11H5",
+  "transitions": [
+    {
+      "src": "1F",
+      "tgt": "L7KQ"
+    },
+    {
+      "src": "3SQU0C1",
+      "tgt": "7"
+    },
+    {
+      "src": "DG9RY",
+      "tgt": "5CC7BCM"
+    },
+    {
+      "src": "N",
+      "tgt": "M0I"
+    },
+    {
+      "src": "H5",
+      "tgt": "7"
+    },
+    {
+      "src": "17",
+      "tgt": ""
+    }
+  ],
+"solution": "[1,5,4,5,]"
+}
+
+{
+  "problem_id": "53",
+  "initial_string": "1H513SQU0C1",
+  "transitions": [
+    {
+      "src": "1F",
+      "tgt": "L7KQ"
+    },
+    {
+      "src": "3SQU0C1",
+      "tgt": "7"
+    },
+    {
+      "src": "DG9RY",
+      "tgt": "5CC7BCM"
+    },
+    {
+      "src": "N",
+      "tgt": "M0I"
+    },
+    {
+      "src": "H5",
+      "tgt": "7"
+    },
+    {
+      "src": "17",
+      "tgt": ""
+    }
+  ],
+"solution": "[1,4,5,5,]"
+}
+
+{
+  "problem_id": "54",
+  "initial_string": "U1DFIJU1D5P21IZ",
+  "transitions": [
+    {
+      "src": "Z",
+      "tgt": "J"
+    },
+    {
+      "src": "5P21",
+      "tgt": "F"
+    },
+    {
+      "src": "U1DFIJ",
+      "tgt": ""
+    }
+  ],
+"solution": "[2,1,0,2,]"
+}
+
+{
+  "problem_id": "55",
+  "initial_string": "U1DFIJU1D5P21IZ",
+  "transitions": [
+    {
+      "src": "Z",
+      "tgt": "J"
+    },
+    {
+      "src": "5P21",
+      "tgt": "F"
+    },
+    {
+      "src": "U1DFIJ",
+      "tgt": ""
+    }
+  ],
+"solution": "[2,0,1,2,]"
+}
+
+{
+  "problem_id": "56",
+  "initial_string": "U8UGG66Y4QB",
+  "transitions": [
+    {
+      "src": "L4QB",
+      "tgt": "8"
+    },
+    {
+      "src": "6IE0VY",
+      "tgt": "4XD8W"
+    },
+    {
+      "src": "GG66Y",
+      "tgt": "L"
+    },
+    {
+      "src": "6NMC",
+      "tgt": "ZI"
+    },
+    {
+      "src": "VMAFGVU",
+      "tgt": "8S7S"
+    },
+    {
+      "src": "U8",
+      "tgt": ""
+    }
+  ],
+"solution": "[5,2,0,5,]"
+}
+
+{
+  "problem_id": "57",
+  "initial_string": "U8UGG66Y4QB",
+  "transitions": [
+    {
+      "src": "L4QB",
+      "tgt": "8"
+    },
+    {
+      "src": "6IE0VY",
+      "tgt": "4XD8W"
+    },
+    {
+      "src": "GG66Y",
+      "tgt": "L"
+    },
+    {
+      "src": "6NMC",
+      "tgt": "ZI"
+    },
+    {
+      "src": "VMAFGVU",
+      "tgt": "8S7S"
+    },
+    {
+      "src": "U8",
+      "tgt": ""
+    }
+  ],
+"solution": "[2,5,0,5,]"
+}
+
+{
+  "problem_id": "58",
+  "initial_string": "UGG66Y4QBU8",
+  "transitions": [
+    {
+      "src": "L4QB",
+      "tgt": "8"
+    },
+    {
+      "src": "6IE0VY",
+      "tgt": "4XD8W"
+    },
+    {
+      "src": "GG66Y",
+      "tgt": "L"
+    },
+    {
+      "src": "6NMC",
+      "tgt": "ZI"
+    },
+    {
+      "src": "VMAFGVU",
+      "tgt": "8S7S"
+    },
+    {
+      "src": "U8",
+      "tgt": ""
+    }
+  ],
+"solution": "[2,0,5,5,]"
+}
+
+{
+  "problem_id": "59",
+  "initial_string": "DHVUDHWE4QWLQU",
+  "transitions": [
+    {
+      "src": "E4QWLQ",
+      "tgt": "S"
+    },
+    {
+      "src": "WS",
+      "tgt": "V"
+    },
+    {
+      "src": "1RTXA5",
+      "tgt": "T2GC"
+    },
+    {
+      "src": "DHVU",
+      "tgt": ""
+    }
+  ],
+"solution": "[0,3,1,3,]"
+}
+
+{
+  "problem_id": "60",
+  "initial_string": "QZALIQLXDPGRYF",
+  "transitions": [
+    {
+      "src": "LIQ",
+      "tgt": "P"
+    },
+    {
+      "src": "P",
+      "tgt": "B"
+    },
+    {
+      "src": "BLXDBG",
+      "tgt": "C"
+    },
+    {
+      "src": "QZACRYF",
+      "tgt": ""
+    }
+  ],
+"solution": "[1,0,1,2,3,]"
+}
+
+{
+  "problem_id": "61",
+  "initial_string": "QZACRYFQZALIQLXDPGRYF",
+  "transitions": [
+    {
+      "src": "LIQ",
+      "tgt": "P"
+    },
+    {
+      "src": "P",
+      "tgt": "B"
+    },
+    {
+      "src": "BLXDBG",
+      "tgt": "C"
+    },
+    {
+      "src": "QZACRYF",
+      "tgt": ""
+    }
+  ],
+"solution": "[3,1,0,1,2,3,]"
+}
+
+{
+  "problem_id": "62",
+  "initial_string": "GXXELZQRGXXELZCNUPR",
+  "transitions": [
+    {
+      "src": "QR",
+      "tgt": "I"
+    },
+    {
+      "src": "C",
+      "tgt": "K"
+    },
+    {
+      "src": "E",
+      "tgt": "JIU"
+    },
+    {
+      "src": "KNUPR",
+      "tgt": "I"
+    },
+    {
+      "src": "WV",
+      "tgt": "BJXPP"
+    },
+    {
+      "src": "GXXELZI",
+      "tgt": ""
+    }
+  ],
+"solution": "[0,1,5,3,5,]"
+}
+
+{
+  "problem_id": "63",
+  "initial_string": "JBQXOKGNJBUKXOGREYEJJZN",
+  "transitions": [
+    {
+      "src": "RXPMO",
+      "tgt": "V"
+    },
+    {
+      "src": "GLJZ",
+      "tgt": "KG"
+    },
+    {
+      "src": "UK",
+      "tgt": "Q"
+    },
+    {
+      "src": "EKIKHKB",
+      "tgt": "YYFVYVN"
+    },
+    {
+      "src": "REYEJ",
+      "tgt": "L"
+    },
+    {
+      "src": "JBQXOKGN",
+      "tgt": ""
+    }
+  ],
+"solution": "[4,5,2,1,5,]"
+}
+
+{
+  "problem_id": "64",
+  "initial_string": "HTVQWBQHTWBDEDBQ",
+  "transitions": [
+    {
+      "src": "NBDED",
+      "tgt": "Z"
+    },
+    {
+      "src": "KCUQ",
+      "tgt": "SQWFRC"
+    },
+    {
+      "src": "W",
+      "tgt": "N"
+    },
+    {
+      "src": "CA",
+      "tgt": "HFIKDGF"
+    },
+    {
+      "src": "VQW",
+      "tgt": "Z"
+    },
+    {
+      "src": "HTZBQ",
+      "tgt": ""
+    }
+  ],
+"solution": "[4,2,5,0,5,]"
+}
+
+{
+  "problem_id": "65",
+  "initial_string": "UMLTMEDQUMLTMEDJMH",
+  "transitions": [
+    {
+      "src": "MAD",
+      "tgt": "K"
+    },
+    {
+      "src": "FXSKHN",
+      "tgt": "OJBJYLJ"
+    },
+    {
+      "src": "LTME",
+      "tgt": "A"
+    },
+    {
+      "src": "KQAUS",
+      "tgt": "C"
+    },
+    {
+      "src": "JMH",
+      "tgt": "Q"
+    },
+    {
+      "src": "UKQ",
+      "tgt": ""
+    }
+  ],
+"solution": "[2,0,5,4,2,0,5,]"
+}
+
+{
+  "problem_id": "66",
+  "initial_string": "AQCIVCIUDRXZENXZENOG",
+  "transitions": [
+    {
+      "src": "VCIUDR",
+      "tgt": "M"
+    },
+    {
+      "src": "QCIMOJ",
+      "tgt": "A"
+    },
+    {
+      "src": "G",
+      "tgt": "J"
+    },
+    {
+      "src": "RXZEN",
+      "tgt": "R"
+    },
+    {
+      "src": "A",
+      "tgt": ""
+    }
+  ],
+"solution": "[3,4,3,2,0,1,4,]"
+}
+
+{
+  "problem_id": "67",
+  "initial_string": "DRFIVAKPHDRFIVFIKPLCPF",
+  "transitions": [
+    {
+      "src": "LXZLEKP",
+      "tgt": "FUAC"
+    },
+    {
+      "src": "FI",
+      "tgt": "A"
+    },
+    {
+      "src": "VAKPH",
+      "tgt": "G"
+    },
+    {
+      "src": "LCPF",
+      "tgt": "H"
+    },
+    {
+      "src": "DRAG",
+      "tgt": ""
+    }
+  ],
+"solution": "[2,1,4,3,1,2,1,4,]"
+}
+
+{
+  "problem_id": "68",
+  "initial_string": "KWGMEHTGMXXWGMEHQFCIWGMEHQ",
+  "transitions": [
+    {
+      "src": "FCI",
+      "tgt": "K"
+    },
+    {
+      "src": "EITRT",
+      "tgt": "BIB"
+    },
+    {
+      "src": "VOMDFJP",
+      "tgt": "VI"
+    },
+    {
+      "src": "Q",
+      "tgt": "T"
+    },
+    {
+      "src": "GMXX",
+      "tgt": "K"
+    },
+    {
+      "src": "KWGMEHT",
+      "tgt": ""
+    }
+  ],
+"solution": "[5,4,3,3,5,0,5,]"
+}
+
+{
+  "problem_id": "69",
+  "initial_string": "vkEBX3R8eZ5sJsJsJsJbEB8e",
+  "transitions": [
+    {
+      "src": "KJxU",
+      "tgt": "veO"
+    },
+    {
+      "src": "5sJ",
+      "tgt": "5"
+    },
+    {
+      "src": "8e",
+      "tgt": "X"
+    },
+    {
+      "src": "kptXl",
+      "tgt": "qewnw"
+    },
+    {
+      "src": "3RXZ5b",
+      "tgt": "vk"
+    },
+    {
+      "src": "vkEBX",
+      "tgt": ""
+    }
+  ],
+"solution": "[5,2,1,1,1,1,4,2,5,]"
+}
+
+{
+  "problem_id": "70",
+  "initial_string": "oooo6JENL0lfrQuXbrO6JENp",
+  "transitions": [
+    {
+      "src": "0lfrQu",
+      "tgt": "r"
+    },
+    {
+      "src": "OIrpHbV",
+      "tgt": "OXpf5KP"
+    },
+    {
+      "src": "6JENp",
+      "tgt": "o"
+    },
+    {
+      "src": "LrXbrO",
+      "tgt": "p"
+    },
+    {
+      "src": "lE",
+      "tgt": "N8"
+    },
+    {
+      "src": "oo",
+      "tgt": ""
+    }
+  ],
+"solution": "[0,5,3,5,2,2,5,]"
+}
+
+{
+  "problem_id": "71",
+  "initial_string": "oo6JENpo6JENL0lfrQuXbrOo",
+  "transitions": [
+    {
+      "src": "0lfrQu",
+      "tgt": "r"
+    },
+    {
+      "src": "OIrpHbV",
+      "tgt": "OXpf5KP"
+    },
+    {
+      "src": "6JENp",
+      "tgt": "o"
+    },
+    {
+      "src": "LrXbrO",
+      "tgt": "p"
+    },
+    {
+      "src": "lE",
+      "tgt": "N8"
+    },
+    {
+      "src": "oo",
+      "tgt": ""
+    }
+  ],
+"solution": "[0,5,2,5,3,2,5,]"
+}
+
+{
+  "problem_id": "72",
+  "initial_string": "5aQZAz2qvpCz2qvpCz2Oyvp",
+  "transitions": [
+    {
+      "src": "Oy",
+      "tgt": "r"
+    },
+    {
+      "src": "5aQZA",
+      "tgt": "C"
+    },
+    {
+      "src": "MABq",
+      "tgt": "WAfa88"
+    },
+    {
+      "src": "q",
+      "tgt": "r"
+    },
+    {
+      "src": "Cz2rvp",
+      "tgt": ""
+    }
+  ],
+"solution": "[1,3,4,3,4,0,4,]"
+}
+
+{
+  "problem_id": "73",
+  "initial_string": "jd7FgKmC1GIajd7FD1GIa",
+  "transitions": [
+    {
+      "src": "gKmC",
+      "tgt": "D"
+    },
+    {
+      "src": "7Fw1",
+      "tgt": "Q"
+    },
+    {
+      "src": "D",
+      "tgt": "w"
+    },
+    {
+      "src": "KC",
+      "tgt": "u9c"
+    },
+    {
+      "src": "jdQGIa",
+      "tgt": ""
+    }
+  ],
+"solution": "[0,2,2,1,1,4,4,]"
+}
+
+{
+  "problem_id": "74",
+  "initial_string": "zNGYhzNTYh",
+  "transitions": [
+    {
+      "src": "f8BMbCK",
+      "tgt": "mF2"
+    },
+    {
+      "src": "BNGYh",
+      "tgt": "n"
+    },
+    {
+      "src": "z",
+      "tgt": "B"
+    },
+    {
+      "src": "T",
+      "tgt": "G"
+    },
+    {
+      "src": "0eBTzb4",
+      "tgt": "v6E"
+    },
+    {
+      "src": "n",
+      "tgt": ""
+    }
+  ],
+"solution": "[2,1,5,3,2,1,5,]"
+}
+
+{
+  "problem_id": "75",
+  "initial_string": "[[]]]][[[_]__][[",
+  "transitions": [
+    {
+      "src": "[_[_]",
+      "tgt": "_][_[]]"
+    },
+    {
+      "src": "[[",
+      "tgt": "_"
+    },
+    {
+      "src": "_]__]",
+      "tgt": "]]]["
+    },
+    {
+      "src": "[_[",
+      "tgt": "[___"
+    },
+    {
+      "src": "]]]][_",
+      "tgt": "]"
+    },
+    {
+      "src": "[[]",
+      "tgt": ""
+    }
+  ],
+"solution": "[2,1,4,1,4,5,]"
+}
+
+{
+  "problem_id": "76",
+  "initial_string": "[[]]]][[[[[]__][[",
+  "transitions": [
+    {
+      "src": "[_[_]",
+      "tgt": "_][_[]]"
+    },
+    {
+      "src": "[[",
+      "tgt": "_"
+    },
+    {
+      "src": "_]__]",
+      "tgt": "]]]["
+    },
+    {
+      "src": "[_[",
+      "tgt": "[___"
+    },
+    {
+      "src": "]]]][_",
+      "tgt": "]"
+    },
+    {
+      "src": "[[]",
+      "tgt": ""
+    }
+  ],
+"solution": "[1,2,1,4,1,4,5,]"
+}
+
+{
+  "problem_id": "77",
+  "initial_string": "][[]][[]][[[[][[]][[",
+  "transitions": [
+    {
+      "src": "_[",
+      "tgt": "["
+    },
+    {
+      "src": "[",
+      "tgt": "__]_]_"
+    },
+    {
+      "src": "[[]][",
+      "tgt": "][]_"
+    },
+    {
+      "src": "[[]]",
+      "tgt": "_"
+    },
+    {
+      "src": "]]_]_",
+      "tgt": "_[]]]"
+    },
+    {
+      "src": "][[_[]_[",
+      "tgt": ""
+    }
+  ],
+"solution": "[2,3,3,3,0,0,5,]"
+}
+
+{
+  "problem_id": "78",
+  "initial_string": "][[]][[]][[[[][[]][[",
+  "transitions": [
+    {
+      "src": "_[",
+      "tgt": "["
+    },
+    {
+      "src": "[",
+      "tgt": "__]_]_"
+    },
+    {
+      "src": "[[]][",
+      "tgt": "][]_"
+    },
+    {
+      "src": "[[]]",
+      "tgt": "_"
+    },
+    {
+      "src": "]]_]_",
+      "tgt": "_[]]]"
+    },
+    {
+      "src": "][[_[]_[",
+      "tgt": ""
+    }
+  ],
+"solution": "[2,3,3,0,3,0,5,]"
+}
+
+{
+  "problem_id": "79",
+  "initial_string": "]]]_[[[_]][[][][[]",
+  "transitions": [
+    {
+      "src": "]]",
+      "tgt": "["
+    },
+    {
+      "src": "][[]",
+      "tgt": "_"
+    },
+    {
+      "src": "[[[_]]",
+      "tgt": "]]_[]]"
+    },
+    {
+      "src": "[]_[_",
+      "tgt": ""
+    }
+  ],
+"solution": "[2,0,0,3,1,1,3,]"
+}
+
+{
+  "problem_id": "80",
+  "initial_string": "]]]_]][[_]][[][][[]",
+  "transitions": [
+    {
+      "src": "]]",
+      "tgt": "["
+    },
+    {
+      "src": "][[]",
+      "tgt": "_"
+    },
+    {
+      "src": "[[[_]]",
+      "tgt": "]]_[]]"
+    },
+    {
+      "src": "[]_[_",
+      "tgt": ""
+    }
+  ],
+"solution": "[0,2,0,0,3,1,1,3,]"
+}
+
+{
+  "problem_id": "81",
+  "initial_string": "100010110010110",
+  "transitions": [
+    {
+      "src": "0010110",
+      "tgt": "0"
+    },
+    {
+      "src": "1",
+      "tgt": "01"
+    },
+    {
+      "src": "1001",
+      "tgt": "101110"
+    },
+    {
+      "src": "00",
+      "tgt": "0110"
+    },
+    {
+      "src": "0",
+      "tgt": ""
+    }
+  ],
+"solution": "[3,1,1,0,0,0,4,]"
+}
+
+{
+  "problem_id": "82",
+  "initial_string": "0100010110010110",
+  "transitions": [
+    {
+      "src": "0010110",
+      "tgt": "0"
+    },
+    {
+      "src": "1",
+      "tgt": "01"
+    },
+    {
+      "src": "1001",
+      "tgt": "101110"
+    },
+    {
+      "src": "00",
+      "tgt": "0110"
+    },
+    {
+      "src": "0",
+      "tgt": ""
+    }
+  ],
+"solution": "[3,1,0,0,0,4,]"
+}
+
+{
+  "problem_id": "83",
+  "initial_string": "00011010101010",
+  "transitions": [
+    {
+      "src": "11010",
+      "tgt": "110"
+    },
+    {
+      "src": "111001",
+      "tgt": "0000100"
+    },
+    {
+      "src": "0",
+      "tgt": "1"
+    },
+    {
+      "src": "01",
+      "tgt": "110"
+    },
+    {
+      "src": "1010100",
+      "tgt": "10"
+    },
+    {
+      "src": "0111010",
+      "tgt": ""
+    }
+  ],
+"solution": "[3,0,0,0,0,2,5,]"
+}
+
+{
+  "problem_id": "84",
+  "initial_string": "00110101001010101010",
+  "transitions": [
+    {
+      "src": "11010",
+      "tgt": "110"
+    },
+    {
+      "src": "111001",
+      "tgt": "0000100"
+    },
+    {
+      "src": "0",
+      "tgt": "1"
+    },
+    {
+      "src": "01",
+      "tgt": "110"
+    },
+    {
+      "src": "1010100",
+      "tgt": "10"
+    },
+    {
+      "src": "0111010",
+      "tgt": ""
+    }
+  ],
+"solution": "[4,0,0,0,0,2,5,]"
+}
+
+{
+  "problem_id": "85",
+  "initial_string": "1111111111111101",
+  "transitions": [
+    {
+      "src": "110111",
+      "tgt": "10100"
+    },
+    {
+      "src": "110",
+      "tgt": "0"
+    },
+    {
+      "src": "111100",
+      "tgt": "01"
+    },
+    {
+      "src": "1101111",
+      "tgt": "010001"
+    },
+    {
+      "src": "1111",
+      "tgt": "1001"
+    },
+    {
+      "src": "101",
+      "tgt": ""
+    }
+  ],
+"solution": "[4,2,5,1,1,1,5,]"
+}
+
+{
+  "problem_id": "86",
+  "initial_string": "111111111111111100",
+  "transitions": [
+    {
+      "src": "110111",
+      "tgt": "10100"
+    },
+    {
+      "src": "110",
+      "tgt": "0"
+    },
+    {
+      "src": "111100",
+      "tgt": "01"
+    },
+    {
+      "src": "1101111",
+      "tgt": "010001"
+    },
+    {
+      "src": "1111",
+      "tgt": "1001"
+    },
+    {
+      "src": "101",
+      "tgt": ""
+    }
+  ],
+"solution": "[4,2,5,2,1,1,5,]"
+}
+
+{
+  "problem_id": "87",
+  "initial_string": "01110100111",
+  "transitions": [
+    {
+      "src": "00",
+      "tgt": "11111"
+    },
+    {
+      "src": "1",
+      "tgt": "0"
+    },
+    {
+      "src": "11101",
+      "tgt": "1100"
+    },
+    {
+      "src": "0110000",
+      "tgt": "101"
+    },
+    {
+      "src": "10",
+      "tgt": ""
+    }
+  ],
+"solution": "[2,3,4,1,4,1,4,]"
+}
+
+{
+  "problem_id": "88",
+  "initial_string": "1110110000001",
+  "transitions": [
+    {
+      "src": "00",
+      "tgt": "11111"
+    },
+    {
+      "src": "1",
+      "tgt": "0"
+    },
+    {
+      "src": "11101",
+      "tgt": "1100"
+    },
+    {
+      "src": "0110000",
+      "tgt": "101"
+    },
+    {
+      "src": "10",
+      "tgt": ""
+    }
+  ],
+"solution": "[3,1,2,3,4,1,4,]"
+}
+
+{
+  "problem_id": "89",
+  "initial_string": "523333295703284848480322488",
+  "transitions": [
+    {
+      "src": "26452",
+      "tgt": "901048"
+    },
+    {
+      "src": "32248",
+      "tgt": "1"
+    },
+    {
+      "src": "9465986457",
+      "tgt": "870"
+    },
+    {
+      "src": "1",
+      "tgt": "22"
+    },
+    {
+      "src": "851536788049",
+      "tgt": "577"
+    },
+    {
+      "src": "957032",
+      "tgt": "24"
+    },
+    {
+      "src": "651",
+      "tgt": "7"
+    },
+    {
+      "src": "521018",
+      "tgt": ""
+    }
+  ],
+"solution": "[5,1,3,1,3,1,3,1,1,7,]"
+}
+
+{
+  "problem_id": "90",
+  "initial_string": "59006855006866660064566877677",
+  "transitions": [
+    {
+      "src": "5514278",
+      "tgt": "94976"
+    },
+    {
+      "src": "4989903874",
+      "tgt": "9874347"
+    },
+    {
+      "src": "166884063528",
+      "tgt": "928944486618"
+    },
+    {
+      "src": "66",
+      "tgt": "9"
+    },
+    {
+      "src": "6",
+      "tgt": "78100"
+    },
+    {
+      "src": "43160406",
+      "tgt": "1329"
+    },
+    {
+      "src": "5",
+      "tgt": "9"
+    },
+    {
+      "src": "459877677",
+      "tgt": "8"
+    },
+    {
+      "src": "990068",
+      "tgt": ""
+    }
+  ],
+"solution": "[6,8,6,6,8,3,7,3,3,8,]"
+}
+
+{
+  "problem_id": "91",
+  "initial_string": "20111115850033158550033158554070",
+  "transitions": [
+    {
+      "src": "4810172866",
+      "tgt": "281630"
+    },
+    {
+      "src": "72",
+      "tgt": "80"
+    },
+    {
+      "src": "1700348",
+      "tgt": "5"
+    },
+    {
+      "src": "37",
+      "tgt": "488"
+    },
+    {
+      "src": "07202583032",
+      "tgt": "93791483"
+    },
+    {
+      "src": "22064110",
+      "tgt": "40141411"
+    },
+    {
+      "src": "1585",
+      "tgt": "7"
+    },
+    {
+      "src": "2074070",
+      "tgt": ""
+    }
+  ],
+"solution": "[6,6,6,3,2,6,3,2,6,7,]"
+}
+
+{
+  "problem_id": "92",
+  "initial_string": "33333153736137640393648010936480",
+  "transitions": [
+    {
+      "src": "8987",
+      "tgt": "449127310"
+    },
+    {
+      "src": "39628553",
+      "tgt": "0866961"
+    },
+    {
+      "src": "1310936480",
+      "tgt": "3"
+    },
+    {
+      "src": "783701989234",
+      "tgt": "099"
+    },
+    {
+      "src": "7",
+      "tgt": "565029107"
+    },
+    {
+      "src": "53736",
+      "tgt": "13"
+    },
+    {
+      "src": "376403",
+      "tgt": "0"
+    },
+    {
+      "src": "96297513904",
+      "tgt": "07788"
+    },
+    {
+      "src": "3",
+      "tgt": ""
+    }
+  ],
+"solution": "[6,8,8,8,5,8,8,2,2,8,]"
+}
+
+{
+  "problem_id": "93",
+  "initial_string": "XREFGIYP1XQXREFGIYA1XRC1AEELLYFGIYA1",
+  "transitions": [
+    {
+      "src": "AESAT3OJHHJL",
+      "tgt": "QCTJENL3NVF"
+    },
+    {
+      "src": "8K2JD9VSMQUB",
+      "tgt": "1T"
+    },
+    {
+      "src": "REFGIYP1",
+      "tgt": "Q"
+    },
+    {
+      "src": "A",
+      "tgt": "P"
+    },
+    {
+      "src": "G6IOI6MC3",
+      "tgt": "Q3N5DVZVE"
+    },
+    {
+      "src": "3P2IRDS3D",
+      "tgt": "CVL7UCUIG2N"
+    },
+    {
+      "src": "C1AEELLY",
+      "tgt": "E"
+    },
+    {
+      "src": "XQ",
+      "tgt": ""
+    }
+  ],
+"solution": "[2,7,7,3,2,7,6,3,2,7,]"
+}
+
+{
+  "problem_id": "94",
+  "initial_string": "11111111110111001111111111",
+  "transitions": [
+    {
+      "src": "10",
+      "tgt": "11001001010"
+    },
+    {
+      "src": "11",
+      "tgt": "01"
+    },
+    {
+      "src": "01110",
+      "tgt": "11010"
+    },
+    {
+      "src": "01010101111",
+      "tgt": "00100001010"
+    },
+    {
+      "src": "000010101001",
+      "tgt": "00"
+    },
+    {
+      "src": "01111001",
+      "tgt": ""
+    }
+  ],
+"solution": "[2,1,1,1,1,1,4,1,5,1,1,1,5,]"
+}
+
+{
+  "problem_id": "95",
+  "initial_string": "0110101011010111011001011111001111001",
+  "transitions": [
+    {
+      "src": "1010011101",
+      "tgt": "100001000101"
+    },
+    {
+      "src": "1011000",
+      "tgt": "010101"
+    },
+    {
+      "src": "01",
+      "tgt": "1101"
+    },
+    {
+      "src": "11101",
+      "tgt": "0001"
+    },
+    {
+      "src": "1001100011",
+      "tgt": "10100000"
+    },
+    {
+      "src": "001",
+      "tgt": "10101"
+    },
+    {
+      "src": "000101010",
+      "tgt": "0100"
+    },
+    {
+      "src": "011010101101",
+      "tgt": ""
+    }
+  ],
+"solution": "[7,2,3,1,1,7,5,3,1,7,]"
+}
+
+{
+  "problem_id": "96",
+  "initial_string": "101010111011110111111111111111",
+  "transitions": [
+    {
+      "src": "00010001",
+      "tgt": "100100100100"
+    },
+    {
+      "src": "11111011",
+      "tgt": "110101"
+    },
+    {
+      "src": "1111",
+      "tgt": "110"
+    },
+    {
+      "src": "001111111100",
+      "tgt": "1001111"
+    },
+    {
+      "src": "111001011110",
+      "tgt": "1100001"
+    },
+    {
+      "src": "111010010",
+      "tgt": "01110"
+    },
+    {
+      "src": "010111",
+      "tgt": "00100110111"
+    },
+    {
+      "src": "0",
+      "tgt": "10"
+    },
+    {
+      "src": "101010111011",
+      "tgt": ""
+    }
+  ],
+"solution": "[2,8,2,7,1,2,7,7,7,2,5,8,]"
+}
+
+{
+  "problem_id": "97",
+  "initial_string": "10111011111110101101111101110111111101111111011110111010111",
+  "transitions": [
+    {
+      "src": "0111010",
+      "tgt": "1001"
+    },
+    {
+      "src": "1000001",
+      "tgt": "0100111011"
+    },
+    {
+      "src": "011101111",
+      "tgt": "0"
+    },
+    {
+      "src": "0",
+      "tgt": "1101011"
+    },
+    {
+      "src": "100",
+      "tgt": "111100"
+    },
+    {
+      "src": "0101000",
+      "tgt": "101001001"
+    },
+    {
+      "src": "1",
+      "tgt": "0001"
+    },
+    {
+      "src": "0100001",
+      "tgt": "1101111111"
+    },
+    {
+      "src": "110011101111",
+      "tgt": ""
+    }
+  ],
+"solution": "[2,0,3,0,8,2,2,2,0,8,]"
+}
+
+{
+  "problem_id": "98",
+  "initial_string": "000000000000000000000110000110000011000011000011000011000011001",
+  "transitions": [
+    {
+      "src": "0100010111",
+      "tgt": "0100001010"
+    },
+    {
+      "src": "01",
+      "tgt": "000110"
+    },
+    {
+      "src": "1",
+      "tgt": "0001101"
+    },
+    {
+      "src": "011",
+      "tgt": "00100010100"
+    },
+    {
+      "src": "00010",
+      "tgt": "1111000"
+    },
+    {
+      "src": "00001100",
+      "tgt": "100"
+    },
+    {
+      "src": "01",
+      "tgt": "10110001011"
+    },
+    {
+      "src": "000011",
+      "tgt": "1"
+    },
+    {
+      "src": "010111001",
+      "tgt": ""
+    }
+  ],
+"solution": "[7,5,5,5,1,1,5,5,5,5,1,1,5,5,5,5,5,5,8,]"
+}
+
+{
+  "problem_id": "99",
+  "initial_string": "1111010001010100101010001010100010101001101101101010110110101111",
+  "transitions": [
+    {
+      "src": "010001010100",
+      "tgt": "00"
+    },
+    {
+      "src": "0",
+      "tgt": "10100"
+    },
+    {
+      "src": "110011111110",
+      "tgt": "100110010111"
+    },
+    {
+      "src": "011011011010",
+      "tgt": "1"
+    },
+    {
+      "src": "1001111100",
+      "tgt": "110001000101"
+    },
+    {
+      "src": "11111",
+      "tgt": ""
+    }
+  ],
+"solution": "[0,1,5,0,1,0,0,3,3,5,]"
+}
+
+{
+  "problem_id": "100",
+  "initial_string": "1100100110010000100000100101000000000010010100000000001001",
+  "transitions": [
+    {
+      "src": "11000000",
+      "tgt": "1011"
+    },
+    {
+      "src": "11010000",
+      "tgt": "101110000000"
+    },
+    {
+      "src": "100000",
+      "tgt": "011"
+    },
+    {
+      "src": "010011001000",
+      "tgt": "0111"
+    },
+    {
+      "src": "0011",
+      "tgt": "1101"
+    },
+    {
+      "src": "1",
+      "tgt": "10000110"
+    },
+    {
+      "src": "0100110000",
+      "tgt": "00111101111"
+    },
+    {
+      "src": "11001",
+      "tgt": ""
+    }
+  ],
+"solution": "[3,7,2,7,7,2,4,2,7,7,2,4,2,7,7,]"
+}

@@ -1,0 +1,26 @@
+{
+    "problem_id": "13",
+    "initial_string": "nhohpgohp",
+    "transitions": [
+        {
+            "src": "acpw",
+            "tgt": "zoynlo"
+        },
+        {
+            "src": "takrm",
+            "tgt": "i"
+        },
+        {
+            "src": "g",
+            "tgt": "nh"
+        },
+        {
+            "src": "uzag",
+            "tgt": "fsho"
+        },
+        {
+            "src": "nhohp",
+            "tgt": ""
+        }
+    ]
+}

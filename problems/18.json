@@ -1,0 +1,42 @@
+{
+    "problem_id": "18",
+    "initial_string": "LWLWLWLPKISK",
+    "transitions": [
+        {
+            "src": "FFS",
+            "tgt": "J"
+        },
+        {
+            "src": "KISK",
+            "tgt": "Z"
+        },
+        {
+            "src": "PZ",
+            "tgt": "W"
+        },
+        {
+            "src": "DED",
+            "tgt": "KWZRaV"
+        },
+        {
+            "src": "GAaWAB",
+            "tgt": "PN"
+        },
+        {
+            "src": "KNDG",
+            "tgt": "UT"
+        },
+        {
+            "src": "EAAPLAZ",
+            "tgt": "QaUOQ"
+        },
+        {
+            "src": "A",
+            "tgt": "NFH"
+        },
+        {
+            "src": "LW",
+            "tgt": ""
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "problem_id": "26",
+    "initial_string": "CZADIIWTDBW",
+    "transitions": [
+        {
+            "src": "ZADIIWT",
+            "tgt": "B"
+        },
+        {
+            "src": "CBD",
+            "tgt": "F"
+        },
+        {
+            "src": "EPURRQW",
+            "tgt": "ILS"
+        },
+        {
+            "src": "FBW",
+            "tgt": ""
+        }
+    ]
+}

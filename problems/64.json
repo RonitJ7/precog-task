@@ -1,0 +1,30 @@
+{
+    "problem_id": "64",
+    "initial_string": "HTVQWBQHTWBDEDBQ",
+    "transitions": [
+        {
+            "src": "NBDED",
+            "tgt": "Z"
+        },
+        {
+            "src": "KCUQ",
+            "tgt": "SQWFRC"
+        },
+        {
+            "src": "W",
+            "tgt": "N"
+        },
+        {
+            "src": "CA",
+            "tgt": "HFIKDGF"
+        },
+        {
+            "src": "VQW",
+            "tgt": "Z"
+        },
+        {
+            "src": "HTZBQ",
+            "tgt": ""
+        }
+    ]
+}

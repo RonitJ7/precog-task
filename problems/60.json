@@ -1,0 +1,22 @@
+{
+    "problem_id": "60",
+    "initial_string": "QZALIQLXDPGRYF",
+    "transitions": [
+        {
+            "src": "LIQ",
+            "tgt": "P"
+        },
+        {
+            "src": "P",
+            "tgt": "B"
+        },
+        {
+            "src": "BLXDBG",
+            "tgt": "C"
+        },
+        {
+            "src": "QZACRYF",
+            "tgt": ""
+        }
+    ]
+}

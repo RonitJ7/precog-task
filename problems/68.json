@@ -1,0 +1,30 @@
+{
+    "problem_id": "68",
+    "initial_string": "KWGMEHTGMXXWGMEHQFCIWGMEHQ",
+    "transitions": [
+        {
+            "src": "FCI",
+            "tgt": "K"
+        },
+        {
+            "src": "EITRT",
+            "tgt": "BIB"
+        },
+        {
+            "src": "VOMDFJP",
+            "tgt": "VI"
+        },
+        {
+            "src": "Q",
+            "tgt": "T"
+        },
+        {
+            "src": "GMXX",
+            "tgt": "K"
+        },
+        {
+            "src": "KWGMEHT",
+            "tgt": ""
+        }
+    ]
+}

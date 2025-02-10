@@ -1,0 +1,30 @@
+{
+    "problem_id": "65",
+    "initial_string": "UMLTMEDQUMLTMEDJMH",
+    "transitions": [
+        {
+            "src": "MAD",
+            "tgt": "K"
+        },
+        {
+            "src": "FXSKHN",
+            "tgt": "OJBJYLJ"
+        },
+        {
+            "src": "LTME",
+            "tgt": "A"
+        },
+        {
+            "src": "KQAUS",
+            "tgt": "C"
+        },
+        {
+            "src": "JMH",
+            "tgt": "Q"
+        },
+        {
+            "src": "UKQ",
+            "tgt": ""
+        }
+    ]
+}
