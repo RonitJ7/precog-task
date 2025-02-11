@@ -1,4 +1,8 @@
 # Project Desciption
+### Report.md is pushed onto github.
+### Video link (just slides): 
+https://drive.google.com/file/d/1LcFS7ZDkDfDV5FhHEpd50GA4ZoMYMji0/view
+### Video link (with voiceover): https://www.loom.com/share/31548eb706704d1e88c60828bd63d4a5
 ## Directory Structure
 ### problems and solutions directories
 + problems directory contains 100 json files, one for each problem in the dataset. It outlines each problem in the dataset in json format.
